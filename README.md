@@ -14,29 +14,29 @@ React와 Spring Boot 기반의 RESTful 구조로 사용자와 관리자 양쪽�
 
 ---
 
-## 📷 주요 화면
+## 주요 화면
 
-### 🧑 사용자 화면
-| 예약 리스트 | 숙소 상세 | 결제 페이지 | 토스API 사용 | 결제 완료 |
-|-------------|------------|-------------|--------------|--------------|
+### 사용자 화면
+| 검색 리스트 | 숙소 상세 | 리뷰 모달 | 결제 화면 | 마이페이지 |
+|-------------|------------|-------------|---------------|----------------|
 | ![user1](./images/user/user1.PNG) | ![user2](./images/user/user2.PNG) | ![user3](./images/user/user3.PNG) | ![user4](./images/user/user4.PNG) | ![user5](./images/user/user5.PNG) |
 
-### 🛠️ 관리자 화면
-| 대시보드 | 예약 관리 | 숙소관리 | 요금관리 | 할인 관리 |
-|-------------|-------------|-------------|-------------|-------------|
-| ![admin1](./images/admin/admin1.PNG) | ![admin2](./images/admin/admin2.PNG) | ![admin3](./images/admin/admin3.PNG) | ![admin4](./images/admin/admin4.PNG) | ![admin5](./images/admin/admin5.PNG) |
----
+###  관리자 화면
+| 대시보드 | 예약 관리 | 숙소/객실 관리 | 요금 설정 | 리뷰/문의 관리 |
+|-------------|-------------|----------------------|---------------|--------------------|
+| ![admin1](./images/admin/admin1.PNG) | ![admin2](./images/admin/admin2.PNG) | ![admin3](./images/admin/admin3.PNG) | ![admin4](./images/admin4.PNG) | ![admin5](./images/admin5.PNG) |
+
 
 ##  주요 기능
 
 ### 사용자
-- 로그인,회원가입(kakao, naver 로그인, 회원가입도 같이 구현)
-- 숙소 검색, 지역/유형 필터링
-- 조건 통과 가능한 숙박일 / 인원 설정
-- 숙소 상세 정보와 이미지,객실정보 출력 구현
-- 숙소리뷰, 숙소문의모달, kakaomap지도 기능 구현
-- Toss Payments API 테스트용 결제 가능
-- 마이페이지: 예약 내역 조회, 리뷰 작성,문의 조회, 내 정보 조회 및 변경
+- 로그인 / 회원가입 (Kakao, Naver 로그인 포함)
+- 숙소 검색 및 지역/유형 필터링
+- 숙박일 및 인원 선택 기능 구현
+- 숙소 상세 페이지: 이미지, 객실 정보, 리뷰, 문의 모달, KakaoMap 연동
+- Toss Payments API를 활용한 테스트 결제 기능 구현
+- 마이페이지: 예약 내역 조회, 리뷰 작성/수정, 문의 내역 확인, 회원 정보 수정 기능
+
 
 ### 관리자
 - 달력 컴포넌트를 활용한 메인 대시보드 관리(예약리스트,예약정보,리뷰,퀵메뉴 포함)
@@ -63,9 +63,9 @@ React와 Spring Boot 기반의 RESTful 구조로 사용자와 관리자 양쪽�
 
 ## 진행 상황
 
-- [x] 사용자 기능 및 관리자 페이지 기능 구현 완료
-- [x] 프론트/백엔드 연동 완료
-- [ ] AWS 배포 환경 구성 예정
+- [x] 사용자 & 관리자 기능 구현 완료
+- [x] 프론트/백엔드 API 연동 완료
+- [x] AWS EC2 / S3 구성 완료 (배포 준비 중)
 
 ---
 
@@ -86,7 +86,3 @@ React와 Spring Boot 기반의 RESTful 구조로 사용자와 관리자 양쪽�
 
 
 
-
-## 🔗 관련 링크
-
-- 프로젝트 GitHub: [https://github.com/yourid/staypick-summary](https://github.com/yourid/staypick-summary)
